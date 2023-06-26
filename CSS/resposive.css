@@ -1,0 +1,48 @@
+@media screen and (max-width: 700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .nav-links ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: black;
+        height: 100vh;
+        width: 305px;
+        top: 0;
+        right: -305px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .nav-links ul li:hover::after {
+        width: 100%;
+    }
+    nav .fa {
+        display: block;
+        margin: 10px;
+        font-size: 22px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .testimonial-col img{
+        margin-left:  0px;
+        margin-right: 15px;
+        top: 5px;
+        position: relative;
+    }
+    .cta h1{
+        font-size: 24px;
+    }
+}
